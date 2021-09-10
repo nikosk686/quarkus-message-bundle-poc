@@ -10,7 +10,8 @@ public class AppMessagesProvider {
     private final AlertMessages enAppMessages;
     private final AlertMessages elAppMessages;
 
-    public AppMessagesProvider(@Localized("en") AlertMessages enAppMessages, @Localized("el") AlertMessages elAppMessages) {
+    public AppMessagesProvider(@Localized("en") AlertMessages enAppMessages,
+                               @Localized("el") AlertMessages elAppMessages) {
         this.enAppMessages = enAppMessages;
         this.elAppMessages = elAppMessages;
     }

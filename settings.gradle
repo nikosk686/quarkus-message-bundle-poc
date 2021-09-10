@@ -9,4 +9,6 @@ pluginManagement {
     }
 }
 rootProject.name='message-bundle-poc'
+include 'api'
+include 'integration-test'
 
